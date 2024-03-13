@@ -1,4 +1,5 @@
 # Below Are The Steps That Help To Deploy a applicaiton using kubernets
+## This Practice is done with help of https://gitlab.com/nanuchi/k8s-in-1-hour/-/blob/master/mongo-secret.yaml?ref_type=heads
 
 ## Install minikube
 - sudo install minikube-linux-amd64 /usr/local/bin/minikube
