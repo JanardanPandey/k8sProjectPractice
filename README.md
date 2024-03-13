@@ -9,9 +9,12 @@
 - alias kubectl="minikube kubectl --"
 - kubectl get po -A
 - minikube dashboard
-- cd Desktop
+  ##  Creating deployments .yaml file inside the kud-demo folder
+  - ## First Create *kub-demo* folder and the clone this service inside the folder
+
 - mkdir kub-Demo
 - cd kub-Demo
+  ### changin the password into the base64 and copy the generated password and past into the mongo-secret file
 - echo -n mongopassword | base64
 - minikube kubectl -- get pods -A
 - sudo minikube kubectl -- get pods -A
